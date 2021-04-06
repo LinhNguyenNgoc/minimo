@@ -8,9 +8,13 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+a:hover {
+	text-decoration-line: none;
+	color: #04011a;
+}
+
 .top-bar > .container {
 	width: 1060px;
-	height: 120px;
 	display: flex;
 	align-items: center;
     justify-content: space-between;
@@ -26,7 +30,7 @@ body {
 }
 
 .top-bar__logo img { 
-	height: 24px;
+	height: auto;
 }
 .top-bar__list-menu {
 	display: flex;
@@ -48,7 +52,6 @@ body {
 }
 
 .banner > .container {
-    height: 510px;
     width: 1060px;
 }
 .banner > .container img {
@@ -57,7 +60,6 @@ body {
 
 .content_detail > .container {
 	width: 902px;
-	height: 450px;
 	padding-top: 65px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -71,6 +73,7 @@ body {
 	font-size: 14px;
 	color: #bdb7aa;
 	text-transform: uppercase;
+	display: block;
 }
 .content_detail > .container > .detail-content {
 	color: #a1a1a1;
@@ -119,6 +122,7 @@ body {
 	font-size: 14px;
 	color: #bdb7aa;
 	text-transform: uppercase;
+	display: block;
 }
 .content_thumnail > .container > .thumnail_detail > .detail-content {
 	color: #b8b2a4;
@@ -190,7 +194,7 @@ body {
 }
 .content_thumnail2 > .container > .thumnail_detail2 img {
 	width: 422px;even
-	height: 282px;
+	height: auto;
 	margin-bottom: 28px;
 }
 .content_thumnail2 > .container > .thumnail_detail2 > .big-title {
@@ -202,6 +206,7 @@ body {
 	font-size: 14px;
 	color: #bdb7aa;
 	text-transform: uppercase;
+	display: block;
 }
 .content_thumnail2 > .container > .thumnail_detail2 > .detail-content {
 	color: #b8b2a4;
@@ -236,7 +241,6 @@ body {
 }
 .content-footer > .container {
 	width: 900px;
-	height: 88px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
